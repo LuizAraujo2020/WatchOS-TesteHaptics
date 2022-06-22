@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9ED8702863643C006368EF /* TesteHaptics WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6F9ED86F2863643C006368EF /* TesteHaptics WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F9ED8752863643F006368EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ED8742863643F006368EF /* Assets.xcassets */; };
+		6F9ED87B2863643F006368EF /* TesteHaptics WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F9ED87A2863643F006368EF /* TesteHaptics WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6F9ED8802863643F006368EF /* TesteHapticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED87F2863643F006368EF /* TesteHapticsApp.swift */; };
+		6F9ED8822863643F006368EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED8812863643F006368EF /* ContentView.swift */; };
+		6F9ED8842863643F006368EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED8832863643F006368EF /* NotificationController.swift */; };
+		6F9ED8862863643F006368EF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED8852863643F006368EF /* NotificationView.swift */; };
+		6F9ED8882863643F006368EF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED8872863643F006368EF /* ComplicationController.swift */; };
+		6F9ED88A28636440006368EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ED88928636440006368EF /* Assets.xcassets */; };
+		6F9ED88D28636440006368EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ED88C28636440006368EF /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9ED8712863643C006368EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9ED8652863643B006368EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9ED86E2863643C006368EF;
+			remoteInfo = "TesteHaptics WatchKit App";
+		};
+		6F9ED87C2863643F006368EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9ED8652863643B006368EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9ED8792863643F006368EF;
+			remoteInfo = "TesteHaptics WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F9ED89528636440006368EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F9ED87B2863643F006368EF /* TesteHaptics WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9ED89928636440006368EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6F9ED8702863643C006368EF /* TesteHaptics WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F9ED86B2863643B006368EF /* TesteHaptics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteHaptics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9ED86F2863643C006368EF /* TesteHaptics WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TesteHaptics WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9ED8742863643F006368EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9ED87A2863643F006368EF /* TesteHaptics WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TesteHaptics WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9ED87F2863643F006368EF /* TesteHapticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteHapticsApp.swift; sourceTree = "<group>"; };
+		6F9ED8812863643F006368EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F9ED8832863643F006368EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6F9ED8852863643F006368EF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6F9ED8872863643F006368EF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6F9ED88928636440006368EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9ED88C28636440006368EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F9ED88E28636440006368EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9ED88F28636440006368EF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9ED8772863643F006368EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9ED8642863643B006368EF = {
+			isa = PBXGroup;
+			children = (
+				6F9ED8732863643C006368EF /* TesteHaptics WatchKit App */,
+				6F9ED87E2863643F006368EF /* TesteHaptics WatchKit Extension */,
+				6F9ED86C2863643B006368EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9ED86C2863643B006368EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ED86B2863643B006368EF /* TesteHaptics.app */,
+				6F9ED86F2863643C006368EF /* TesteHaptics WatchKit App.app */,
+				6F9ED87A2863643F006368EF /* TesteHaptics WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9ED8732863643C006368EF /* TesteHaptics WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ED8742863643F006368EF /* Assets.xcassets */,
+			);
+			path = "TesteHaptics WatchKit App";
+			sourceTree = "<group>";
+		};
+		6F9ED87E2863643F006368EF /* TesteHaptics WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ED87F2863643F006368EF /* TesteHapticsApp.swift */,
+				6F9ED8812863643F006368EF /* ContentView.swift */,
+				6F9ED8832863643F006368EF /* NotificationController.swift */,
+				6F9ED8852863643F006368EF /* NotificationView.swift */,
+				6F9ED8872863643F006368EF /* ComplicationController.swift */,
+				6F9ED88928636440006368EF /* Assets.xcassets */,
+				6F9ED88E28636440006368EF /* Info.plist */,
+				6F9ED88F28636440006368EF /* PushNotificationPayload.apns */,
+				6F9ED88B28636440006368EF /* Preview Content */,
+			);
+			path = "TesteHaptics WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6F9ED88B28636440006368EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ED88C28636440006368EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9ED86A2863643B006368EF /* TesteHaptics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9ED89A28636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics" */;
+			buildPhases = (
+				6F9ED8692863643B006368EF /* Resources */,
+				6F9ED89928636440006368EF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9ED8722863643C006368EF /* PBXTargetDependency */,
+			);
+			name = TesteHaptics;
+			productName = TesteHaptics;
+			productReference = 6F9ED86B2863643B006368EF /* TesteHaptics.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6F9ED86E2863643C006368EF /* TesteHaptics WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9ED89628636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics WatchKit App" */;
+			buildPhases = (
+				6F9ED86D2863643C006368EF /* Resources */,
+				6F9ED89528636440006368EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9ED87D2863643F006368EF /* PBXTargetDependency */,
+			);
+			name = "TesteHaptics WatchKit App";
+			productName = "TesteHaptics WatchKit App";
+			productReference = 6F9ED86F2863643C006368EF /* TesteHaptics WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6F9ED8792863643F006368EF /* TesteHaptics WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9ED89228636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics WatchKit Extension" */;
+			buildPhases = (
+				6F9ED8762863643F006368EF /* Sources */,
+				6F9ED8772863643F006368EF /* Frameworks */,
+				6F9ED8782863643F006368EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TesteHaptics WatchKit Extension";
+			productName = "TesteHaptics WatchKit Extension";
+			productReference = 6F9ED87A2863643F006368EF /* TesteHaptics WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9ED8652863643B006368EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					6F9ED86A2863643B006368EF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6F9ED86E2863643C006368EF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					6F9ED8792863643F006368EF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 6F9ED8682863643B006368EF /* Build configuration list for PBXProject "TesteHaptics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F9ED8642863643B006368EF;
+			productRefGroup = 6F9ED86C2863643B006368EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9ED86A2863643B006368EF /* TesteHaptics */,
+				6F9ED86E2863643C006368EF /* TesteHaptics WatchKit App */,
+				6F9ED8792863643F006368EF /* TesteHaptics WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9ED8692863643B006368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9ED86D2863643C006368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9ED8752863643F006368EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9ED8782863643F006368EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9ED88D28636440006368EF /* Preview Assets.xcassets in Resources */,
+				6F9ED88A28636440006368EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9ED8762863643F006368EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9ED8842863643F006368EF /* NotificationController.swift in Sources */,
+				6F9ED8822863643F006368EF /* ContentView.swift in Sources */,
+				6F9ED8882863643F006368EF /* ComplicationController.swift in Sources */,
+				6F9ED8802863643F006368EF /* TesteHapticsApp.swift in Sources */,
+				6F9ED8862863643F006368EF /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F9ED8722863643C006368EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9ED86E2863643C006368EF /* TesteHaptics WatchKit App */;
+			targetProxy = 6F9ED8712863643C006368EF /* PBXContainerItemProxy */;
+		};
+		6F9ED87D2863643F006368EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9ED8792863643F006368EF /* TesteHaptics WatchKit Extension */;
+			targetProxy = 6F9ED87C2863643F006368EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F9ED89028636440006368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F9ED89128636440006368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9ED89328636440006368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesteHaptics WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K328B98U3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TesteHaptics WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TesteHaptics WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6F9ED89428636440006368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TesteHaptics WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = K328B98U3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TesteHaptics WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TesteHaptics WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6F9ED89728636440006368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TesteHaptics_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TesteHaptics WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		6F9ED89828636440006368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TesteHaptics_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TesteHaptics WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		6F9ED89B28636440006368EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6F9ED89C28636440006368EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K328B98U3F;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.workshop.TesteHaptics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9ED8682863643B006368EF /* Build configuration list for PBXProject "TesteHaptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9ED89028636440006368EF /* Debug */,
+				6F9ED89128636440006368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9ED89228636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9ED89328636440006368EF /* Debug */,
+				6F9ED89428636440006368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9ED89628636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9ED89728636440006368EF /* Debug */,
+				6F9ED89828636440006368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9ED89A28636440006368EF /* Build configuration list for PBXNativeTarget "TesteHaptics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9ED89B28636440006368EF /* Debug */,
+				6F9ED89C28636440006368EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9ED8652863643B006368EF /* Project object */;
+}
