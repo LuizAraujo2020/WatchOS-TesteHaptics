@@ -17,6 +17,7 @@
 		6F9ED8882863643F006368EF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED8872863643F006368EF /* ComplicationController.swift */; };
 		6F9ED88A28636440006368EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ED88928636440006368EF /* Assets.xcassets */; };
 		6F9ED88D28636440006368EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ED88C28636440006368EF /* Preview Assets.xcassets */; };
+		6F9ED89F286364F2006368EF /* TapticsCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ED89E286364F2006368EF /* TapticsCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6F9ED88C28636440006368EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F9ED88E28636440006368EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F9ED88F28636440006368EF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6F9ED89E286364F2006368EF /* TapticsCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticsCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,14 +120,10 @@
 		6F9ED87E2863643F006368EF /* TesteHaptics WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6F9ED87F2863643F006368EF /* TesteHapticsApp.swift */,
 				6F9ED8812863643F006368EF /* ContentView.swift */,
-				6F9ED8832863643F006368EF /* NotificationController.swift */,
-				6F9ED8852863643F006368EF /* NotificationView.swift */,
-				6F9ED8872863643F006368EF /* ComplicationController.swift */,
-				6F9ED88928636440006368EF /* Assets.xcassets */,
+				6F9ED89E286364F2006368EF /* TapticsCall.swift */,
+				6F9ED8A028636506006368EF /* Unnecessarities */,
 				6F9ED88E28636440006368EF /* Info.plist */,
-				6F9ED88F28636440006368EF /* PushNotificationPayload.apns */,
 				6F9ED88B28636440006368EF /* Preview Content */,
 			);
 			path = "TesteHaptics WatchKit Extension";
@@ -137,6 +135,19 @@
 				6F9ED88C28636440006368EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F9ED8A028636506006368EF /* Unnecessarities */ = {
+			isa = PBXGroup;
+			children = (
+				6F9ED87F2863643F006368EF /* TesteHapticsApp.swift */,
+				6F9ED8832863643F006368EF /* NotificationController.swift */,
+				6F9ED8852863643F006368EF /* NotificationView.swift */,
+				6F9ED8872863643F006368EF /* ComplicationController.swift */,
+				6F9ED88928636440006368EF /* Assets.xcassets */,
+				6F9ED88F28636440006368EF /* PushNotificationPayload.apns */,
+			);
+			path = Unnecessarities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9ED89F286364F2006368EF /* TapticsCall.swift in Sources */,
 				6F9ED8842863643F006368EF /* NotificationController.swift in Sources */,
 				6F9ED8822863643F006368EF /* ContentView.swift in Sources */,
 				6F9ED8882863643F006368EF /* ComplicationController.swift in Sources */,
