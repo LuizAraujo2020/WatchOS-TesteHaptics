@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    /// Access the Haptics.
     private let tapticsCall = TapticsCall()
     
     @State private var showingSheet: Bool = false
@@ -18,12 +19,12 @@ struct ContentView: View {
             Spacer()
             
             Text("Click")
+                .foregroundColor(.white)
                 .padding()
                 .onTapGesture {
                     tapticsCall.giveStop()
                     showingSheet.toggle()
                     hapticChosen = .click
-                    
                 }
             
             HStack {
@@ -107,7 +108,7 @@ struct ContentView: View {
             }
         }
         .sheet(isPresented: $showingSheet) {
-            SheetView(text: hapticChosen.name)
+            SheetView(text: hapticChosen.description)
                 .background(.red)
         }
     }
